@@ -9,7 +9,7 @@
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/KURZ3/kurzes-awakened-1.21.X_FABRIC"
 	},
 	"license": "MIT",
 	"icon": "assets/kurzesawakened/icon.png",
