@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "kurzesawakened",
+	"version": "${version}",
+	"name": "Kurzes Awakened",
+	"description": "Something in the depths of the void has awakened, be careful.",
+	"authors": [
+		"KURZE"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/kurzesawakened/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.kurzesawakened.KurzesAwakened"
+		],
+		"fabric-datagen": [
+			"com.kurzesawakened.KurzesAwakenedDataGenerator"
+		],
+		"client": [
+			"com.kurzesawakened.KurzesAwakenedClient"
+		]
+	},
+	"mixins": [
+		"kurzesawakened.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
