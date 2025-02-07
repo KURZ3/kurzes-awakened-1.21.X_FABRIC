@@ -1,5 +1,6 @@
 package com.kurzesawakened;
 
+import com.kurzesawakened.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -13,5 +14,6 @@ public class KurzesAwakened implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		LOGGER.info("Is someone there?");
+		ModItems.registerModItems(); //Registering our Mod Items
 	}
 }
