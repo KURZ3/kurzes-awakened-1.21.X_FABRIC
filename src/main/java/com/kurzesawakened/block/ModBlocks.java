@@ -19,6 +19,13 @@ public class ModBlocks {
             new Block(AbstractBlock.Settings.create().strength(5f)
                     .requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)));
 
+    public static final Block SCULK_BRICKS = registerBlock("sculk_bricks",
+            new Block(AbstractBlock.Settings.create().strength(5f)
+                    .requiresTool().sounds(BlockSoundGroup.NETHER_BRICKS)));
+
+    public static final Block DARK_PURPLE_PLANKS = registerBlock("dark_purple_planks",
+            new Block(AbstractBlock.Settings.create().strength(5f)
+                    .requiresTool().sounds(BlockSoundGroup.WOOD)));
 
 
 
