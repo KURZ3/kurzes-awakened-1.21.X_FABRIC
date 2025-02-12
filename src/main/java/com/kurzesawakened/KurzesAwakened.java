@@ -1,6 +1,7 @@
 package com.kurzesawakened;
 
 import com.kurzesawakened.block.ModBlocks;
+import com.kurzesawakened.item.ModItemGroups;
 import com.kurzesawakened.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -16,6 +17,7 @@ public class KurzesAwakened implements ModInitializer {
 	public void onInitialize() {
 		LOGGER.info("Is someone there?");
 		ModItems.registerModItems(); //Registering our Mod Items
-		ModBlocks.registerModBLocks(); //Regsitering our Mod Blocks
+		ModBlocks.registerModBLocks(); //Registering our Mod Blocks
+		ModItemGroups.registerItemGroups();
 	}
 }

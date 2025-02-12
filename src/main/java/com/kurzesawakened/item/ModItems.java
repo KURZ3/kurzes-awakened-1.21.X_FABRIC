@@ -33,9 +33,5 @@ public class ModItems {
     }
     public static void registerModItems(){ //Method used for registering our items
         KurzesAwakened.LOGGER.info("Registering Mod Items for" + KurzesAwakened.MOD_ID);
-
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(fabricItemGroupEntries -> {
-            fabricItemGroupEntries.add(KURZARITE_CLUSTER);
-        });
     }
 }

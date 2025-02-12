@@ -3,5 +3,7 @@
 
   "block.kurzesawakened.sculk_deco": "Sculk Decoration",
   "block.kurzesawakened.sculk_bricks": "Sculk Bricks",
-  "block.kurzesawakened.dark_purple_planks": "Kurzarite Planks"
+  "block.kurzesawakened.dark_purple_planks": "Kurzarite Planks",
+
+  "itemgroup.kurzesawakened.ka_items": "AWAKENED KURZES ITEMS"
 }

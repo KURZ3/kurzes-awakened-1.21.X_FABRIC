@@ -50,8 +50,5 @@ public class ModBlocks {
 
     public static void registerModBLocks(){
         KurzesAwakened.LOGGER.info("Registering Mod Blocks for " + KurzesAwakened.MOD_ID);
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries->{ //We add the block to the Building Blocks Tab
-            entries.add(ModBlocks.SCULK_DECO);
-        });
     }
 }
