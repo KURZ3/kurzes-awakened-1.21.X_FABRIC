@@ -17,9 +17,16 @@ public class ModItemGroups {
                     .displayName(Text.translatable("itemgroup.kurzesawakened.ka_items"))
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.KURZARITE_CLUSTER);
+                        entries.add(ModItems.SCULK_DUST);
+                        entries.add(ModItems.UNREFINED_SCULK_INGOT);
+                        entries.add(ModItems.SCULK_INGOT);
+
+                        //----------------BLOCKS-------------
+                        entries.add(ModBlocks.KURZARITE_ORE);
+                        entries.add(ModBlocks.KURZARITE_DEEPSLATE_ORE);
+                        entries.add(ModBlocks.SCULK_BRICKS);
                         entries.add(ModBlocks.SCULK_DECO);
                         entries.add(ModBlocks.DARK_PURPLE_PLANKS);
-                        entries.add(ModBlocks.SCULK_BRICKS);
 
                     }).build());
 
