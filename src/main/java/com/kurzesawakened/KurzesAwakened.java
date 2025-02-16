@@ -18,6 +18,6 @@ public class KurzesAwakened implements ModInitializer {
 		LOGGER.info("Is someone there?");
 		ModItems.registerModItems(); //Registering our Mod Items
 		ModBlocks.registerModBLocks(); //Registering our Mod Blocks
-		ModItemGroups.registerItemGroups();
+		ModItemGroups.registerItemGroups();// Registering our own Mod Tab
 	}
 }
