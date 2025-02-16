@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "kurzesawakened:item/sculk_dust"
+  }
+}

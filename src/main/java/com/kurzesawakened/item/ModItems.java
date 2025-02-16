@@ -13,6 +13,12 @@ public class ModItems {
     //------------------------------ITEMS---------------------
     public static final Item KURZARITE_CLUSTER = registerItem("kurzarite_cluster", new Item(new Item.Settings()));
 
+    public static final Item SCULK_DUST = registerItem("sculk_dust", new Item(new Item.Settings()));
+
+    public static final Item SCULK_INGOT = registerItem("sculk_ingot", new Item(new Item.Settings()));
+
+    public static final Item UNREFINED_SCULK_INGOT = registerItem("unrefined_sculk_ingot", new Item(new Item.Settings()));
+
 
 
 
@@ -32,6 +38,6 @@ public class ModItems {
         return Registry.register(Registries.ITEM, Identifier.of(KurzesAwakened.MOD_ID, name), item);
     }
     public static void registerModItems(){ //Method used for registering our items
-        KurzesAwakened.LOGGER.info("Registering Mod Items for" + KurzesAwakened.MOD_ID);
+        KurzesAwakened.LOGGER.info("Registering Mod Items for " + KurzesAwakened.MOD_ID);
     }
 }
