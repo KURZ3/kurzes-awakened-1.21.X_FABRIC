@@ -19,6 +19,10 @@ public class ModItems {
 
     public static final Item UNREFINED_SCULK_INGOT = registerItem("unrefined_sculk_ingot", new Item(new Item.Settings()));
 
+    public static final Item UNREFINED_KURZARITE_INGOT = registerItem("unrefined_kurzarite_ingot", new Item(new Item.Settings()));
+
+    public static final Item UNREFINED_KURZARITE_INGOT_BV = registerItem("unrefined_kurzarite_ingot_bv", new Item(new Item.Settings()));
+
 
 
 
