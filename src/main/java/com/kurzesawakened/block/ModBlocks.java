@@ -35,6 +35,10 @@ public class ModBlocks {
             new Block(AbstractBlock.Settings.create().strength(8f)
                     .requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
 
+    public static final Block KURZARITE_ORE_NEW = registerBlock("kurzarite_ore_new",
+            new Block(AbstractBlock.Settings.create().strength(8f)
+                    .requiresTool().sounds(BlockSoundGroup.ANCIENT_DEBRIS)));
+
 
 
 
