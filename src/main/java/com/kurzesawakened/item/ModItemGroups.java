@@ -20,8 +20,11 @@ public class ModItemGroups {
                         entries.add(ModItems.SCULK_DUST);
                         entries.add(ModItems.UNREFINED_SCULK_INGOT);
                         entries.add(ModItems.SCULK_INGOT);
+                        entries.add(ModItems.UNREFINED_KURZARITE_INGOT);
+                        entries.add(ModItems.UNREFINED_KURZARITE_INGOT_BV);
 
                         //----------------BLOCKS-------------
+                        entries.add(ModBlocks.KURZARITE_ORE_NEW);
                         entries.add(ModBlocks.KURZARITE_ORE);
                         entries.add(ModBlocks.KURZARITE_DEEPSLATE_ORE);
                         entries.add(ModBlocks.SCULK_BRICKS);
