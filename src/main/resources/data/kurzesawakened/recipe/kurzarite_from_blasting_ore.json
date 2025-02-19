@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 10.0,
+  "group": "coal",
+  "ingredient": {
+    "item": "kurzesawakened:kurzarite_ore_new"
+  },
+  "result": {
+    "id": "kurzesawakened:unrefined_kurzarite_ingot"
+  }
+}
