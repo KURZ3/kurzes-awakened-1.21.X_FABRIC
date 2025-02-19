@@ -3,10 +3,13 @@
   "item.kurzesawakened.sculk_dust": "Sculk Dust",
   "item.kurzesawakened.sculk_ingot": "Sculk Ingot",
   "item.kurzesawakened.unrefined_sculk_ingot": "Unrefined Sculk Ingot",
+  "item.kurzesawakened.unrefined_kurzarite_ingot": "Unrefined Kurzarite Ingot",
+  "item.kurzesawakened.unrefined_kurzarite_ingot_bv": "Unrefined Kurzarite Ingot Black Version",
 
   "block.kurzesawakened.sculk_deco": "Sculk Decoration",
   "block.kurzesawakened.sculk_bricks": "Sculk Bricks",
   "block.kurzesawakened.dark_purple_planks": "Kurzarite Planks",
+  "block.kurzesawakened.kurzarite_ore_new": "Kurzarite Ore NEW",
   "block.kurzesawakened.kurzarite_ore": "Kurzarite Ore",
   "block.kurzesawakened.kurzarite_deepslate_ore": "Kurzarite Deepslate Ore",
 
