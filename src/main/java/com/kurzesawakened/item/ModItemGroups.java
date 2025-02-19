@@ -16,6 +16,8 @@ public class ModItemGroups {
             FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.KURZARITE_CLUSTER))
                     .displayName(Text.translatable("itemgroup.kurzesawakened.ka_items"))
                     .entries((displayContext, entries) -> {
+                        //----------------ITEMS-------------
+
                         entries.add(ModItems.KURZARITE_CLUSTER);
                         entries.add(ModItems.SCULK_DUST);
                         entries.add(ModItems.UNREFINED_SCULK_INGOT);

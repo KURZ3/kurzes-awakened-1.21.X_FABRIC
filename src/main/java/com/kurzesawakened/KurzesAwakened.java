@@ -4,7 +4,6 @@ import com.kurzesawakened.block.ModBlocks;
 import com.kurzesawakened.item.ModItemGroups;
 import com.kurzesawakened.item.ModItems;
 import net.fabricmc.api.ModInitializer;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

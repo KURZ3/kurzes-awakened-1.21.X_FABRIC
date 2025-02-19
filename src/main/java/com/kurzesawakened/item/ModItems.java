@@ -24,19 +24,6 @@ public class ModItems {
     public static final Item UNREFINED_KURZARITE_INGOT_BV = registerItem("unrefined_kurzarite_ingot_bv", new Item(new Item.Settings()));
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
     //------------------------------METHODS---------------------
     private static Item registerItem(String name, Item item){ //Builder preset used for out items
         return Registry.register(Registries.ITEM, Identifier.of(KurzesAwakened.MOD_ID, name), item);

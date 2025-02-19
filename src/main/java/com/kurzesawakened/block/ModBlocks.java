@@ -41,13 +41,6 @@ public class ModBlocks {
 
 
 
-
-
-
-
-
-
-
     //------------------------------REGISTERING METHODS---------------------
 
     private static Block registerBlock(String name, Block block){ //Method used for creating and registering the block
