@@ -32,6 +32,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SCULK_BRICKS);
                         entries.add(ModBlocks.SCULK_DECO);
                         entries.add(ModBlocks.DARK_PURPLE_PLANKS);
+                        entries.add(ModBlocks.WHITERINE);
 
                     }).build());
 

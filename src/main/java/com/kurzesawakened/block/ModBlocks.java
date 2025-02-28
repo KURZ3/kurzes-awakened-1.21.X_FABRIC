@@ -39,6 +39,10 @@ public class ModBlocks {
             new Block(AbstractBlock.Settings.create().strength(8f)
                     .requiresTool().sounds(BlockSoundGroup.ANCIENT_DEBRIS)));
 
+    public static final Block WHITERINE = registerBlock("whiterine",
+            new Block(AbstractBlock.Settings.create().strength(8f)
+                    .requiresTool().sounds(BlockSoundGroup.ANVIL)));
+
 
 
     //------------------------------REGISTERING METHODS---------------------
