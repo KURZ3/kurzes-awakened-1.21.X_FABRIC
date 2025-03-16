@@ -4,6 +4,7 @@ import com.kurzesawakened.KurzesAwakened;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
+import net.minecraft.block.ExperienceDroppingBlock;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
@@ -11,6 +12,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.math.intprovider.UniformIntProvider;
 
 public class ModBlocks {
 
@@ -25,15 +27,15 @@ public class ModBlocks {
 
     public static final Block DARK_PURPLE_PLANKS = registerBlock("dark_purple_planks",
             new Block(AbstractBlock.Settings.create().strength(5f)
-                    .requiresTool().sounds(BlockSoundGroup.WOOD)));
+                    .sounds(BlockSoundGroup.WOOD)));
 
     public static final Block KURZARITE_ORE = registerBlock("kurzarite_ore",
-            new Block(AbstractBlock.Settings.create().strength(8f)
-                    .requiresTool().sounds(BlockSoundGroup.STONE)));
+            new ExperienceDroppingBlock(UniformIntProvider.create(3, 6),
+                    AbstractBlock.Settings.create().strength(10f).requiresTool()));
 
     public static final Block KURZARITE_DEEPSLATE_ORE = registerBlock("kurzarite_deepslate_ore",
-            new Block(AbstractBlock.Settings.create().strength(8f)
-                    .requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
+            new ExperienceDroppingBlock(UniformIntProvider.create(4, 8),
+                    AbstractBlock.Settings.create().strength(10f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
 
     public static final Block KURZARITE_ORE_NEW = registerBlock("kurzarite_ore_new",
             new Block(AbstractBlock.Settings.create().strength(8f)
